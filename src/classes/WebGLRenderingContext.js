@@ -39,6 +39,7 @@ const testFuncs = [
   'deleteRenderbuffer',
   'deleteShader',
   'deleteTexture',
+  'deleteVertexArray',
   'depthFunc',
   'depthMask',
   'depthRange',
@@ -103,6 +104,7 @@ const testFuncs = [
   'texParameteri',
   'texImage2D',
   'texSubImage2D',
+  'transformFeedbackVaryings',
   'uniform1f',
   'uniform1fv',
   'uniform1i',
@@ -133,6 +135,7 @@ const testFuncs = [
   'vertexAttrib4f',
   'vertexAttrib4fv',
   'vertexAttribPointer',
+  'vertexAttribDivisor',
   'viewport',
 ];
 const mockEnums = {
